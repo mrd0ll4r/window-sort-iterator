@@ -1,0 +1,17 @@
+[package]
+name = "window-sort-iterator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Leo Balduf <leobalduf@gmail.com>"]
+description = "An iterator adapter that sorts items within a sliding window"
+repository = "https://github.com/mrd0ll4r/window-sort-iterator"
+keywords = ["iterator", "sort", "window", "sliding", "heap"]
+license = "MIT"
+categories = ["rust-patterns", "algorithms"]
+readme = "README.md"
+include = [
+    "src/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE"
+]
